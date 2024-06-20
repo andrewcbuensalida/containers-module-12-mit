@@ -1,0 +1,7 @@
+commands for cqlsh (cli for cassandra)
+
+open docker desktop
+open command line for the cassandra container
+use books;
+INSERT INTO book (Book_ID, Name, Author, Year_Published, Number_Of_Pages) VALUES (5, 'Hamlet', 'William Shakespeare', 1603, 100);
+SELECT * FROM book;
