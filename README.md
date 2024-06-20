@@ -32,3 +32,6 @@ pip install -r requirements.txt
 
 ## To save dependencies into requirements.txt
 pip freeze > requirements.txt
+
+## Sometimes imports could not be resolved
+To fix, have to change the python interpreter to the one in .venv folder. Hover over squigly, quick fix, select a different interpreter, browse and choose the python.exe in .venv/Scripts
